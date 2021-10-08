@@ -1,0 +1,31 @@
+{
+  "name": "petproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kordonskanastya/petProject.git"
+  },
+  "keywords": [
+    "pet",
+    "prototype"
+  ],
+  "author": "Kordonska Nastya <kordonskanastya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kordonskanastya/petProject/issues"
+  },
+  "homepage": "https://github.com/kordonskanastya/petProject#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.13"
+  }
+}
