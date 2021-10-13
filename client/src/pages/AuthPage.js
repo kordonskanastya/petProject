@@ -16,6 +16,10 @@ export const AuthPage = () => {
         clearError()
     }, [error, message, clearError])
 
+    useEffect(() => {
+        window.M.updateTextFields()
+    })
+
     const changeHander = event => {
         setForm({...form, [event.target.name]: event.target.value})
     }
